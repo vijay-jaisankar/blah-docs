@@ -1,6 +1,11 @@
 # Homepage
 
-Welcome to the documentation page of the `blah` project.
+Welcome to the documentation page of the `blah` project.  
+
+## Overall project architecture
+![Project arch](./arch_diagram.png)  
+
+## Sub-pages
 
 [Frontend docs](./frontend.md)  
 [Backend docs](./backend.md)  
