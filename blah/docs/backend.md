@@ -52,7 +52,8 @@ This is an experimental feature that returns the approximate sentiment of a revi
 - `npm install`  
 - `node index.js`  
 - Alternatively, you can run `docker run -p 3000:3000 thehungrypigeon/sentimentdetails:latest`  
-- Kubernetes deployment: `kubectl -f kubectl apply -f sentiment-details-deployment.yaml
+- Kubernetes deployment: `kubectl -f kubectl apply -f sentiment-details-deployment.yaml`  
+- To run the tests, run `npx mocha test.js --exit`
 
 **Routes**   
 1. `/` - base route to check if the API is active  
