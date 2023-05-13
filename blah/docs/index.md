@@ -1,0 +1,16 @@
+# Homepage
+
+Welcome to the documentation page of the `blah` project.
+
+[Frontend docs](./frontend.md)  
+[Backend docs](./backend.md)  
+
+## Code
+[Frontend repo](https://github.com/jaggu21/blah-frontend/)  
+[Backend repo](https://github.com/vijay-jaisankar/blah-backend/)  
+[Docs repo](https://github.com/vijay-jaisankar/blah-docs/)  
+
+## Authors
+Vijay Jaisankar  
+Siva Jagadesh  
+Amish Raj  
