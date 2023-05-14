@@ -20,7 +20,7 @@ This stores and fetches reviews from MongoDB.
 2. `/auth/register` - to sign a user up  
 3. `/auth/login` - to log in a user (can generate a JWT token)    
 4. `/reviews/fetch` - to fetch reviews pertaining to a particular IMDB ID  
-5. `reviews/new` - to add a review pertaining to a particular IMDB ID  
+5. `/reviews/new` - to add a review pertaining to a particular IMDB ID  
 
 --- 
 
@@ -59,3 +59,7 @@ This is an experimental feature that returns the approximate sentiment of a revi
 1. `/` - base route to check if the API is active  
 2. `/sentiment` - returns the sentiment of the given review text
 
+
+--- 
+**Running Ansible Config**
+Ansible Deployment: `ansible-playbook -i inventory ansible-playbook.yml`  
