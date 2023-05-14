@@ -109,8 +109,8 @@
 - Populate the <code>.env</code> file akin to <code>.env.example</code>.<br />
 - <code>npm install</code><br />
 - <code>node index.js</code><br />
-- Alternatively, you can run <code>docker run -p 3000:3000 thehungrypigeon/reviewdetails:latest</code><br />
-- Kubernetes deployment: <code>kubectl -f kubectl apply -f   review-details-deployment.yaml</code> <br />
+- Alternatively, you can run <code>docker run -p 3000:3000 thehungrypigeon/reviewdetails:latest</code> <br />
+- Kubernetes deployment: <code>kubectl apply -f   review-details-deployment.yaml</code> <br />
 - To run the tests, run <code>npx mocha test.js</code>.  </p>
 <p><strong>Routes</strong><br />
 1. <code>/</code> - base route to check if the API is active<br />
@@ -144,8 +144,8 @@
 - <code>npm install</code><br />
 - <code>node index.js</code><br />
 - Alternatively, you can run <code>docker run -p 3000:3000 thehungrypigeon/sentimentdetails:latest</code><br />
-- Kubernetes deployment: <code>kubectl -f kubectl apply -f sentiment-details-deployment.yaml</code><br />
-- To run the tests, run <code>npx mocha test.js --exit</code></p>
+- Kubernetes deployment: <code>kubectl apply -f sentiment-details-deployment.yaml</code><br />
+- To run the tests, run <code>npx mocha test.js --exit</code>  </p>
 <p><strong>Routes</strong> <br />
 1. <code>/</code> - base route to check if the API is active<br />
 2. <code>/sentiment</code> - returns the sentiment of the given review text</p>
