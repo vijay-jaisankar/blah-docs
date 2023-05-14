@@ -8,7 +8,7 @@ The frontend is implemented in React:
 - `npm install`  
 - `npm start`  
 - Alternatively, you can run `docker run -p 3001:3001 jaggu21/blah-frontend:latest`  
-- Kubernetes deployment: `kubectl -f kubectl apply -f blah-frontend.yaml`
+- Kubernetes deployment: `kubectl apply -f blah-frontend.yaml`  
 - Ansible Deployment: `ansible-playbook -i inventory ansible-playbook.yml`   
 - To run the tests, run `npm test`.  
 

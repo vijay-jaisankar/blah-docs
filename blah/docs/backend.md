@@ -11,8 +11,8 @@ This stores and fetches reviews from MongoDB.
 - Populate the `.env` file akin to `.env.example`.  
 - `npm install`  
 - `node index.js`  
-- Alternatively, you can run `docker run -p 3000:3000 thehungrypigeon/reviewdetails:latest`  
-- Kubernetes deployment: `kubectl -f kubectl apply -f   review-details-deployment.yaml`   
+- Alternatively, you can run `docker run -p 3000:3000 thehungrypigeon/reviewdetails:latest`   
+- Kubernetes deployment: `kubectl apply -f   review-details-deployment.yaml`   
 - To run the tests, run `npx mocha test.js`.  
 
 **Routes**  
@@ -52,8 +52,8 @@ This is an experimental feature that returns the approximate sentiment of a revi
 - `npm install`  
 - `node index.js`  
 - Alternatively, you can run `docker run -p 3000:3000 thehungrypigeon/sentimentdetails:latest`  
-- Kubernetes deployment: `kubectl -f kubectl apply -f sentiment-details-deployment.yaml`  
-- To run the tests, run `npx mocha test.js --exit`
+- Kubernetes deployment: `kubectl apply -f sentiment-details-deployment.yaml`  
+- To run the tests, run `npx mocha test.js --exit`  
 
 **Routes**   
 1. `/` - base route to check if the API is active  
